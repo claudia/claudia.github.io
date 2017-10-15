@@ -2,13 +2,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-.exemplo{	
+.exemplo{
 	background:#646363 url(../img/sombreado.png) repeat-x;
 	padding:10px;
 	width:916px;
 	margin:20px;
 }
-h5.accordion{ 
+h5.accordion{
 	cursor: pointer;
 	text-align:left;
 	font-family: Verdana, Geneva, sans-serif;
@@ -28,7 +28,7 @@ div.accordion{
 }
 
 /*-------------------------Links-----------------------------*/
-h5.accordion:hover{ 
+h5.accordion:hover{
 	text-decoration:none;
 	color:#fff;
 	text-decoration:underline;
@@ -41,7 +41,7 @@ h5 a:visited{
 	text-decoration:none;
 	color:#fff;
 }
-h5 a:hover{ 
+h5 a:hover{
 	text-decoration:underline;
 	color:#fff;
 }
@@ -49,7 +49,7 @@ h5 a:hover{
 	line-height:100px;
 }
 
-body {                     
+body {
 	background:#777777;
 }
 
@@ -66,7 +66,7 @@ body {
 #ativo2{
 	color:#ffeb07;
 }
-	
+
 #geral{
 	width:980px;
 	background:#afaeae url(../img/bg_geral.jpg) bottom repeat-x scroll;
@@ -76,7 +76,7 @@ body {
 	float:left;
 	border:1px solid #ccc;
 	}
-	
+
 #header{
 	width:980px;
 	min-height:150px;
@@ -87,10 +87,10 @@ body {
 #menus{
 	width:980px;
 	height:80px;
-	background-color:#373636;	
+	background-color:#373636;
 }
 .menu_btn{
-	width:161px/*194px*/;
+	width:137.666px;
 	height:38px;
 	margin:1px;
 	background: url(../img/bg_btn_menu.jpg) repeat-x;
@@ -100,14 +100,14 @@ body {
 	margin-left:2px/*1px*/;
 }
 
-h4{
+h4, h5{
 	line-height:0px;
 	font-family: Tahoma, Geneva, sans-serif;
 	color:#fff;
 	font-weight:500;
 }
 
-.menu_btn h4{
+.menu_btn{
 	text-align:center;
 }
 
@@ -121,13 +121,14 @@ h4{
 }
 
 .menu_btn a{
-	width:161px;/*194px;*/
+	width:100%;
+	display: inline-block;
+	text-align: center;
 	height:38px;
-	float:left;
 	margin-top:-20px;
 	top:50%;
 	position:relative;
-	line-height:40px;
+	line-height:38px;
 }
 .menu_btn a:link, a:visited, a:active{
 	text-decoration:none;
@@ -144,12 +145,12 @@ h4{
 	text-decoration:none;
 	color:#fff;
 }
-.menu_btn2 a:hover h4{
+.menu_btn2 h4 a:hover {
 	text-decoration:none;
 	color:#ffeb07;
 }
 
-.menu_btn3 a:hover h4{
+.menu_btn3 h4 a:hover {
 	text-decoration:none;
 	color:#ffeb07;
 }
@@ -303,7 +304,7 @@ h4{
 	font-size:7pt;
 	color:#fff;
 	margin:0px;
-	}	
+	}
 
 form{
 	color:#476b8c;
@@ -416,7 +417,7 @@ form{
 	padding-bottom:10px;
 	padding-top:10px;
 	background-color:#fff;
-	
+
 	}
 .box3{
 	float:left;
@@ -515,7 +516,7 @@ form{
 .top4 ul li{
 	margin-left:160px;
 }
-	
+
 #servico_chamado_geral{
 	width:936px;
 	min-height:100px;
@@ -629,7 +630,7 @@ b a:active{
 	font-size:8pt;
 	font-weight:bold;
 	color:#FFF;
-	margin-top:20px;	
+	margin-top:20px;
 	}
 .barrav{
 	font-size:26pt;
@@ -661,10 +662,8 @@ b a:active{
 
 .feedsweep_date{
 	font-size:7pt;
-	font-weight:bold;	
+	font-weight:bold;
 }
 ul li{
 	list-style:none;
 	}
-	
-	
