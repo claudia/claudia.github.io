@@ -255,6 +255,14 @@ h4, h5{
 	padding-bottom:22px;
 	background: url(../img/sombreado.png) repeat-x;
 }
+
+.qs_chamado2{
+	background: url(../img/sombreado.png) #646363 repeat-x;
+	margin-left:20px;
+	margin-right:22px;
+	float:left;
+}
+
 .qs_chamado1{
 	margin-left:22px;
 	float:left;
@@ -298,7 +306,7 @@ h4, h5{
 	font-size:8pt;
 	color:#fff;
 	margin:0px;
-	}	
+	}
 .txtform2{
 	font-family: Verdana, Geneva, sans-serif;
 	font-size:7pt;
