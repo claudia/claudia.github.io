@@ -8,7 +8,7 @@ Author: GMF Saneamento
 - - - - - - - - - - - - - - - - - - - - - */
 
 /* ----- CSS ----- */
-body {                     
+body {
 	background:#777;
 }
 
@@ -32,95 +32,99 @@ body {
 	min-height:150px;
 
 	}
-#menus{
-	width:980px;
-	height:80px;
-	background-color:#373636;	
-	float:left;
-}
-.menu_btn{
-	width:161px;
-	height:38px;
-	margin:1px;
-	background: url(images/bg_btn_menu.jpg) repeat-x;
-	float:left;
-}
 
-h4{
-	line-height:0px;
-	font-family: Tahoma, Geneva, sans-serif;
-	color:#fff;
-	font-weight:500;
-}
+	#menus{
+		width:980px;
+		height:80px;
+		background-color:#373636;
+	}
+	.menu_btn{
+		width:137.666px;
+		height:38px;
+		margin:1px;
+		background: url(images/bg_btn_menu.jpg) repeat-x;
+		float:left;
+	}
+	.home{
+		margin-left:2px/*1px*/;
+	}
 
-.menu_btn h4{
-	text-align:center;
-}
+	h4, h5{
+		line-height:0px;
+		font-family: Tahoma, Geneva, sans-serif;
+		color:#fff;
+		font-weight:500;
+	}
 
-.menu_btn2 h4{
-	text-align:left;
-	margin-left:72px;
-}
-.menu_btn3 h4{
-	text-align:right;
-	margin-right:72px;
-}
+	.menu_btn{
+		text-align:center;
+	}
 
-.menu_btn a{
-	width:161px;
-	height:38px;
-	float:left;
-	margin-top:-20px;
-	top:50%;
-	position:relative;
-	line-height:40px;
-}
-.menu_btn a:link, a:visited, a:active{
-	text-decoration:none;
-	color:#fff;
-}
-.menu_btn a:hover{
-	text-decoration:none;
-	background:url(images/bg_btn_menu_hover.jpg) repeat-x;
-	color:#333;
-	/*font-weight:bold;*/
-}
+	.menu_btn2 h4{
+		text-align:left;
+		margin-left:72px;
+	}
+	.menu_btn3 h4{
+		text-align:right;
+		margin-right:72px;
+	}
 
-.menu_btn2 a:link, a:visited, a:active, .menu_btn3 a:link, a:visited, a:active{
-	text-decoration:none;
-	color:#fff;
-}
-.menu_btn2 a:hover h4{
-	text-decoration:none;
-	color:#ffeb07;
-}
+	.menu_btn a{
+		width:100%;
+		display: inline-block;
+		text-align: center;
+		height:38px;
+		margin-top:-20px;
+		top:50%;
+		position:relative;
+		line-height:38px;
+	}
+	.menu_btn a:link, a:visited, a:active{
+		text-decoration:none;
+		color:#fff;
+	}
+	.menu_btn a:hover{
+		text-decoration:none;
+		background:url(images/bg_btn_menu_hover.jpg) repeat-x;
+		color:#333;
+		/*font-weight:bold;*/
+	}
 
-.menu_btn3 a:hover h4{
-	text-decoration:none;
-	color:#ffeb07;
-}
+	.menu_btn2 a:link, a:visited, a:active, .menu_btn3 a:link, a:visited, a:active{
+		text-decoration:none;
+		color:#fff;
+	}
+	.menu_btn2 h4 a:hover {
+		text-decoration:none;
+		color:#ffeb07;
+	}
 
-.bg_menu2{
-	width:978px;
-	height:40px;
-	background:url(images/bg_btn_menu2.jpg) repeat-x;
-	margin:1px;
-	float:left;
-}
-.menu_btn2{
-	width:488px;
-	height:38px;
-	margin-right:1px;
-	float:left;
-	background: url(images/btn_suporte.jpg) no-repeat left;
-}
-.menu_btn3{
-	width:488px;
-	height:38px;
-	margin-right:1px;
-	float:right;
-	background: url(images/btn_contato.jpg) no-repeat right;
-}
+	.menu_btn3 h4 a:hover {
+		text-decoration:none;
+		color:#ffeb07;
+	}
+
+	.bg_menu2{
+		width:978px;
+		height:40px;
+		background:url(images/bg_btn_menu2.jpg) repeat-x;
+		margin:1px;
+		float:left;
+	}
+	.menu_btn2{
+		width:488px;
+		height:38px;
+		margin-right:1px;
+		float:left;
+		background: url(images/btn_suporte.jpg) no-repeat left;
+	}
+	.menu_btn3{
+		width:488px;
+		height:38px;
+		margin-right:1px;
+		float:right;
+		background: url(images/btn_contato.jpg) no-repeat right;
+	}
 #headerbox{
 	width:936px;
 	min-height:334px;
@@ -178,8 +182,8 @@ h4{
 
 .subContainer, #navigation ul{
     width:780px;
-    margin:0 auto; 
-float:left;   
+    margin:0 auto;
+float:left;
 }
 #banner{
     margin:0;
@@ -269,7 +273,7 @@ h3{
     color:#907a00;
     margin:5px 0;
 
-    
+
 }
 
 /* ----- PARAGRAPHS ----- */
@@ -277,7 +281,7 @@ h3{
 p{
     font-family:Arial, Helvetica, sans-serif;
     color:#043f4a;
-    font-size:12px;    
+    font-size:12px;
     line-height:25px;
 margin-left:44px;
 margin-right:44px;
@@ -285,15 +289,15 @@ margin-bottom:22px;
 }
 #primaryContent ul{
     color:#043f4a;
-    font-size:12px;    
+    font-size:12px;
     margin-left:44px;
 margin-right:44px;
 margin-bottom:22px;
-    list-style:none; 
+    list-style:none;
 float:left
 
 }
-#primaryContent li{    
+#primaryContent li{
     padding-left:25px;
     margin:8px 0;
     list-style:none;
@@ -304,7 +308,7 @@ float:left;
 
 }
 #secondaryContent p{
-    
+
 }
 
 /* ----- FORMS ----- */
@@ -315,7 +319,7 @@ input{
     border: 1px solid #CCC;
     font-size: 11px;
     padding: 3px;
-    width:200px;              
+    width:200px;
 }
 textarea{
     background-color: #FFF;
@@ -323,7 +327,7 @@ textarea{
     border: 1px solid #CCC;
     font-size: 11px;
     padding: 3px;
-    width:400px; 
+    width:400px;
 }
 button{
     background-color:#EFEFEF;
@@ -446,31 +450,31 @@ margin-bottom:22px;
 /* ----- COMMENTS ----- */
 
 .comments{
-    margin:15px 0 25px 0;   
-    font-family: Arial, Helvetica, sans-serif; 
+    margin:15px 0 25px 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
     /*.comments .status{
         color:#546d17;
         background:#f8f8f8;
         border:2px solid #ececec;
         padding:10px;
-        margin-bottom:15px;    
+        margin-bottom:15px;
     }*/
         .comments .status dd, .comments .status dt{
           display:inline;
-	font-family: Arial, Helvetica, sans-serif; 
-	
+	font-family: Arial, Helvetica, sans-serif;
+
         }
     .comments a{
         color:#28649b;
         font-weight:bold;
-        text-decoration:none; 
-        font-family: Arial, Helvetica, sans-serif; 
+        text-decoration:none;
+        font-family: Arial, Helvetica, sans-serif;
 
     }
     .comments a:hover{
         color:#28649b;
-        text-decoration:underline; 
+        text-decoration:underline;
     }
        /*.comments .comment{ /*-------borda horizontal------*/)
         border: 1px #ccc solid;
@@ -505,7 +509,7 @@ margin-bottom:22px;
             color:#585858;
         }
 dt{
- font-family: Arial, Helvetica, sans-serif; 
+ font-family: Arial, Helvetica, sans-serif;
  float: left;
  font-weight: bold;
 color: #2c5d9d;
@@ -514,7 +518,7 @@ margin-left:44px;
 dd{
  font-family: Arial, Helvetica, sans-serif;
  font-weight: bold;
-color: #2c5d9d; 
+color: #2c5d9d;
 margin-left:44px;
 }
 
@@ -554,7 +558,7 @@ margin-left:44px;
 	font-size:8pt;
 	font-weight:bold;
 	color:#FFF;
-	margin-top:20px;	
+	margin-top:20px;
 	}
 .barrav{
 	font-size:26pt;
