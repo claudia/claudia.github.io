@@ -1,0 +1,572 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Theme Name: GMF
+Theme URI: http://www.gmfsaneamento.com.br
+Description: Theme based on Mighty Template by James Broad - kulor.com.
+Version: 1.0
+Author: GMF Saneamento
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* ----- CSS ----- */
+body {                     
+	background:#777;
+}
+
+
+#ativo{
+	background:url(images/bg_btn_menu_hover.jpg) repeat-x;
+	color:#373636;
+	font-weight:bold
+}
+#geral{
+	width:980px;
+	background:#afaeae url(images/bg_geral.jpg) bottom repeat-x ;
+	margin-left:-490px;
+	position:absolute;
+	left:50%;
+	float:left;
+	}
+/*------------------------------header-----------------------------------------*/
+#header{
+	width:980px;
+	min-height:150px;
+
+	}
+#menus{
+	width:980px;
+	height:80px;
+	background-color:#373636;	
+	float:left;
+}
+.menu_btn{
+	width:161px;
+	height:38px;
+	margin:1px;
+	background: url(images/bg_btn_menu.jpg) repeat-x;
+	float:left;
+}
+
+h4{
+	line-height:0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#fff;
+	font-weight:500;
+}
+
+.menu_btn h4{
+	text-align:center;
+}
+
+.menu_btn2 h4{
+	text-align:left;
+	margin-left:72px;
+}
+.menu_btn3 h4{
+	text-align:right;
+	margin-right:72px;
+}
+
+.menu_btn a{
+	width:161px;
+	height:38px;
+	float:left;
+	margin-top:-20px;
+	top:50%;
+	position:relative;
+	line-height:40px;
+}
+.menu_btn a:link, a:visited, a:active{
+	text-decoration:none;
+	color:#fff;
+}
+.menu_btn a:hover{
+	text-decoration:none;
+	background:url(images/bg_btn_menu_hover.jpg) repeat-x;
+	color:#333;
+	/*font-weight:bold;*/
+}
+
+.menu_btn2 a:link, a:visited, a:active, .menu_btn3 a:link, a:visited, a:active{
+	text-decoration:none;
+	color:#fff;
+}
+.menu_btn2 a:hover h4{
+	text-decoration:none;
+	color:#ffeb07;
+}
+
+.menu_btn3 a:hover h4{
+	text-decoration:none;
+	color:#ffeb07;
+}
+
+.bg_menu2{
+	width:978px;
+	height:40px;
+	background:url(images/bg_btn_menu2.jpg) repeat-x;
+	margin:1px;
+	float:left;
+}
+.menu_btn2{
+	width:488px;
+	height:38px;
+	margin-right:1px;
+	float:left;
+	background: url(images/btn_suporte.jpg) no-repeat left;
+}
+.menu_btn3{
+	width:488px;
+	height:38px;
+	margin-right:1px;
+	float:right;
+	background: url(images/btn_contato.jpg) no-repeat right;
+}
+#headerbox{
+	width:936px;
+	min-height:334px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:50px;
+	background:url(images/bg_content.jpg) bottom repeat-x;
+	float:left;
+	z-index:1;
+	}
+#headerbox img{
+	margin:0px;
+	z-index:2;
+	}
+
+.titulo{
+	width:732px;
+	z-index:2;
+	margin-left:-20px;
+	float:left;
+	position:absolute;
+	padding-top:80px;
+}
+.titulo p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30pt;
+	color:#3e3e3b;
+
+}
+.txt{
+	width:600px;
+	clear:left;
+	margin:160px 100px 0px -20px;
+	padding-bottom:20px;	}
+.txt p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	color:#5d5d5c;
+	line-height:25px;
+	}
+/*------------------------------ fim da header-----------------------------------------*/
+/* ----- IDS ----- */
+
+#container{
+    width:936px;
+/*  margin:10px auto;*/
+    margin-left:22px;
+    margin-top:24px;
+    padding:0;
+    background:#ffffff;
+    text-align:left;
+    float: left;
+}
+/* ----- HEADER ----- */
+
+.subContainer, #navigation ul{
+    width:780px;
+    margin:0 auto; 
+float:left;   
+}
+#banner{
+    margin:0;
+    padding:0;
+    padding-bottom:5px;
+    background:#e7e7e7;
+float:left;
+}
+
+/* ----- NAVIGATION ----- */
+
+#navigation{
+    margin:0;
+    padding:0;
+    background:#7fa71f;
+    height:34px;
+    list-style:none;
+}
+    #navigation li{
+        float:left;
+        clear:none;
+        list-style:none;
+    }
+    #navigation li a{
+        color:#fff;
+        display:block;
+        font-size:12px;
+        text-decoration:none;
+        font-weight:bold;
+        padding:10px 18px;
+    }
+    #navigation li a:hover{
+        color:#fff;
+        background:#ccc;
+    }
+    #active a{
+        background:url(images/nav_bg.gif);
+    }
+
+/* ----- HEADINGS ----- */
+
+h1{
+    text-indent:-80000px;
+    height:35px;
+    width:168px;
+
+
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:22px;
+    letter-spacing:-1px;
+    margin-top:15px;
+    margin-bottom:0px;
+    font-weight:400;
+    color:#CAB60A;
+    margin-left:22px;
+}
+h2 a{
+    text-decoration:none;
+    color:#CAB60A;
+margin-left:22px;
+}
+
+h2 a:link{
+    text-decoration:none;
+    color:#CAB60A;
+
+}
+h2 a:visited{
+	text-decoration:none;
+	color:#908105;
+}
+h2 a:hover{
+	text-decoration: none;
+	color:#908105;
+}
+h2 a:active{
+	text-decoration:none;
+	color:#4a87bf;
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    color:#907a00;
+    margin:5px 0;
+
+    
+}
+
+/* ----- PARAGRAPHS ----- */
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#043f4a;
+    font-size:12px;    
+    line-height:25px;
+margin-left:44px;
+margin-right:44px;
+margin-bottom:22px;
+}
+#primaryContent ul{
+    color:#043f4a;
+    font-size:12px;    
+    margin-left:44px;
+margin-right:44px;
+margin-bottom:22px;
+    list-style:none; 
+float:left
+
+}
+#primaryContent li{    
+    padding-left:25px;
+    margin:8px 0;
+    list-style:none;
+ margin-left:44px;
+margin-right:44px;
+margin-bottom:22px;
+float:left;
+
+}
+#secondaryContent p{
+    
+}
+
+/* ----- FORMS ----- */
+
+input{
+    background-color: #FFF;
+    color: #999999;
+    border: 1px solid #CCC;
+    font-size: 11px;
+    padding: 3px;
+    width:200px;              
+}
+textarea{
+    background-color: #FFF;
+    color: #999999;
+    border: 1px solid #CCC;
+    font-size: 11px;
+    padding: 3px;
+    width:400px; 
+}
+button{
+    background-color:#EFEFEF;
+    line-height:11px;
+    color: #000;
+    border: 1px solid #CCC;
+    font-size: 11px;
+    height:20px;
+    margin: 0;
+    padding: 0 5px;
+}
+form p{
+    padding:2px 0;
+}
+#pagina{
+width:936px;
+height:30px;
+margin-top:10px;
+float:left;
+}
+
+/* ----- IMAGES ----- */
+
+img{
+    border:0px;
+    margin:10px;
+}
+img a{
+    border:0px;
+    text-decoration:none;
+}
+img a:link{
+    border:0px;
+    text-decoration:none;
+}
+img a:hover{
+    border:0px;
+}
+img a:visited{
+    border:0px;
+}
+.alignleft {
+float: left;
+}
+.alignright {
+float: right;
+}
+
+/* ----- CONTENT ----- */
+
+#primaryContent{
+    width:936px;
+    min-height:400px;
+    font-size:11px;
+    /*padding:20px 55px;*/
+    margin-top:22px;
+    float:left;
+    clear:none;
+    background:#fff;
+}
+    /*#primaryContent img{
+        clear:none;
+        margin:10px;
+        margin-right:0;
+        padding:1px;
+        border: 1px solid #E7E7E7;
+    }*/
+#secondaryContent{
+    margin-top:22px;
+    margin-right:34px;
+    font-size:11px;
+    float:right;
+    clear:none;
+    }
+#secondaryContent h2{
+    padding:11px 15px;
+    background:url(images/intro_bg.gif) no-repeat;
+    color:#fff;
+    margin-bottom:0;
+    line-height:21px;
+    font-size:13px;
+    font-weight:normal;
+}
+#secondaryContent h3{
+    color:#907a00;
+    margin-top:20px;
+}
+#secondaryContent ul{
+    list-style:none;
+}
+#secondaryContent li{
+    font-family:Arial, Helvetica, sans-serif;
+    list-style:none;
+    padding-left:20px;
+    margin:8px 0;
+    background:url(images/tiny_bullet.png) left bottom no-repeat;
+}
+#secondaryContent li a{
+    color:#575757;
+    font-weight:bold;
+    text-decoration:none;
+}
+#secondaryContent li a:hover{
+    color:#E7E7E7;
+    font-weight:bold;
+    text-decoration:underline;
+}
+#secondaryContent .links li{
+    padding-left:0px;
+    margin:8px 0;
+    background:none;
+}
+.border{
+width:936px;
+height: 22px;
+background:#f8f8f8 url(http://www.gmfsaneamento.com.br/noticias/wp-content/themes/gmf3/images/bg_posts.jpg) bottom repeat-x;
+float:left;
+margin-bottom:22px;
+}
+/* ----- COMMENTS ----- */
+
+.comments{
+    margin:15px 0 25px 0;   
+    font-family: Arial, Helvetica, sans-serif; 
+}
+    /*.comments .status{
+        color:#546d17;
+        background:#f8f8f8;
+        border:2px solid #ececec;
+        padding:10px;
+        margin-bottom:15px;    
+    }*/
+        .comments .status dd, .comments .status dt{
+          display:inline;
+	font-family: Arial, Helvetica, sans-serif; 
+	
+        }
+    .comments a{
+        color:#28649b;
+        font-weight:bold;
+        text-decoration:none; 
+        font-family: Arial, Helvetica, sans-serif; 
+
+    }
+    .comments a:hover{
+        color:#28649b;
+        text-decoration:underline; 
+    }
+       /*.comments .comment{ /*-------borda horizontal------*/)
+        border: 1px #ccc solid;
+    }*/
+        .comments .comment dt{
+            float:left;
+            clear:none;
+        }
+        .comments .comment dd{
+            clear:both;
+            color:#656565;
+            line-height:20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:10px;
+            margin-bottom:10px;
+        }
+        .comments .comment .date{
+            float:left;
+            clear:none;
+            margin-left:5px;
+            line-height:12px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:11px;
+            color:#585858;
+        }
+        .comments .comment .pagination{
+            clear:none;
+            margin-left:5px;
+            line-height:12px;
+            font-size:11px;
+            font-family:Arial, Helvetica, sans-serif;
+            color:#585858;
+        }
+dt{
+ font-family: Arial, Helvetica, sans-serif; 
+ float: left;
+ font-weight: bold;
+color: #2c5d9d;
+margin-left:44px;
+}
+dd{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+color: #2c5d9d; 
+margin-left:44px;
+}
+
+/* ----- FOOTER ----- */
+
+#footer{
+	width:980px;
+	height:114px;
+	background:url(images/bg_footer.jpg);
+	margin-top:20px;
+	float:left;
+}
+
+#footernav{
+	width:400px;
+	min-height:50px;
+	float:left;
+	margin-left:22px;
+	margin-top:40px;
+	}
+#footernav a:link{
+	text-decoration:none;
+}
+
+#footernav a:visited{
+	text-decoration:none;
+}
+
+#footernav2{
+	width:450px;
+	min-height:80px;
+	float:right;
+	margin-top:48px;
+	}
+.footerp{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	font-weight:bold;
+	color:#FFF;
+	margin-top:20px;	
+	}
+.barrav{
+	font-size:26pt;
+	font-weight:lighter;
+	width:108px;
+	height:80px;
+	float:left;
+	margin-top:20px;
+	text-align:center;
+	line-height:80px;
+	color:#FFF;
+	}
+/*.clear{
+    clear:both;
+}*/
