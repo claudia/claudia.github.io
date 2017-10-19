@@ -7,7 +7,7 @@
         <div class="barrav">&#124;</div>
 
         <div id="footernav2">
-<font class="footerp">GMF - Gestão de Medição e Faturamento Ltda.<br />Rua Brasilio Luz nº 253 - Santo Amaro – São Paulo/SP CEP: 04746-050<br />
+<font class="footerp">GMF - Gestão de Medição e Faturamento Ltda.<br />Rua Brasilio Luz nº 253 - 1º andar - Santo Amaro – São Paulo/SP CEP: 04746-050<br />
 Fone 55 (11) - 5524-4286 / (11) 5524-0891 / (11) 5524-2840</font>
 </div>
 
